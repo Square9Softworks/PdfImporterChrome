@@ -1,0 +1,26 @@
+.left
+{
+    width: 30%;
+    float: left;
+    text-align: right;
+    padding-top: 3px;
+}
+
+.right
+{
+    width: 65%;
+    margin-left: 10px;
+    float:left;
+}
+
+.footer-left
+{
+	padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.footer-right
+{
+	padding-top: 15px;
+    padding-bottom: 11px;
+}

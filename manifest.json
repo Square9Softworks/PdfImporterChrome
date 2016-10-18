@@ -1,0 +1,21 @@
+{
+  "name" : "Square 9 PDF Importer",
+  "version" : "1.0",
+  "description" : "Imports a PDF into a GlobalSearch archive",
+  "options_ui": { "page": "options.html", "chrome_style": true , "open_in_tab": false },
+  "background" : {
+    "scripts": ["js/jquery-1.11.0.min.js","js/background.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "icons/Square9b-upload-32.png",
+    "default_title" : "Import PDF into GlobalSearch"
+  },
+  "permissions": [ "declarativeContent", "storage", "tabs", "activeTab", "notifications", "*://*/*"],
+  "icons" : {
+    "48" : "icons/Square9b-upload-48.png",
+    "128" : "icons/Square9b-upload-128.png"
+  },
+  "manifest_version": 2
+}
