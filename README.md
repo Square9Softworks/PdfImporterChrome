@@ -26,7 +26,7 @@ You'll see in the browser action icons list in the top left a greyed out Square 
 
 If it's lit up, clicking the button will import the current URL's pdf into the targeted archive set in the options. Field data can be modified in code.
 
-Any errors currently output to the chrome developer console (press F12).
+Any errors currently output to the chrome developer console. You can access the console for this extension specifically by clicking the `Inspect views: 'background page (inactive)'` link in the chrome extensions menu entry for Square 9 PDF Importer.
 
 
 ### Special Thanks:
